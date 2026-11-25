@@ -25,7 +25,7 @@ class TurboWarpBlocks {
     getInfo () {
         return {
             id: 'tw',
-            name: 'Dash',
+            name: 'Glitify',
             color1: '#ffa34c',
             color2: '#e68d44',
             color3: '#c7693a',
