@@ -97,6 +97,7 @@ Object.assign(global.Scratch, ScratchCommon, {
 const extensionWorker = new ExtensionWorker();
 global.Scratch.extensions = {
     isDash: true,
+    isGlitify: true,
     register: extensionWorker.register.bind(extensionWorker)
 };
 
