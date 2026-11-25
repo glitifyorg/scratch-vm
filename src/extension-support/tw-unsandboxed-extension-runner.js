@@ -36,6 +36,7 @@ const setupUnsandboxedExtensionAPI = vm => new Promise(resolve => {
     Scratch.extensions = {
         unsandboxed: true,
         isDash: true,
+        isGlitify: true,
         register
     };
     Scratch.vm = vm;
